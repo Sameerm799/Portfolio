@@ -10,13 +10,13 @@
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition);
+    /*transition: var(--transition);*/
 }
-
+/*
 .portfolio__item:hover{
     border-color: var(--color-primary-varient);
     background: transparent;
-}
+}*/
 
 .portfolio__item-image{
     border-radius: 1.5rem;
