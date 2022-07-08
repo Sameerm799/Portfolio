@@ -35,11 +35,11 @@ const About = () => {
             <article className="about__card">
               <AiOutlineFolder className='about__icon'/>
               <h5>Projects</h5>
-              <small>Kwantlen Polythechnic University</small>
+              <small>Personal and School projects</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quia ut ipsa molestias nemo, sunt magni, voluptatem doloremque nobis tempore molestiae ipsam sequi ad a ea delectus assumenda nesciunt quibusdam!</p>
-          <a href='#contact' className='btn btn-primary'>Contact</a>
+          <p>I use my passion and drive to constantly build up my skills in developing. Whether its a personal porfolio or a Student Record Keeping System Database, the challenge is never too big. I can develop and maintain projects on my own and with groups. I wan't to use my skills to provide an unforgettable experience that people will never forget. </p>
+          
           
 
         </div>

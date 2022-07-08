@@ -12,32 +12,27 @@ const Services = () => {
         
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Web Devlopment</h3>
           </div>
           <ul className='service__list'>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Utilizing HTML/CSS/Javascript, React, Bootstrap, and PHP 
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Database development with user login authenticaiton
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Maintain devloped websites, introducing new learnings 
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Plan frontend and backend design, user experience driven
               </p>
             </li>
           </ul>
@@ -45,65 +40,56 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>Web Dev</h3>
+            <h3>Java and C#</h3>
           </div>
           <ul className='service__list'>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Developing web application with C#, using MS SQL and .NET
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Understanding of object-oriented design and data strucutes 
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Produce detailed project documentation for clients and teams
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Fix bug issues and implement new requests made by clients and teams
               </p>
             </li>
-            <li>
-              <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
-              </p>
-            </li>
+      
           </ul>
         </article>
 
         <article className='service'>
           <div className="service__head">
-            <h3>Java and C</h3>
+            <h3>Game Development</h3>
           </div>
          <ul className='service__list'>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Creating 2D and 3D worlds in both Unity and Unreal Engine
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Developing scripts for player interaction, collision, and death triggers 
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Implementing enemy AI detection system and movement patterns
               </p>
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolores?
+              <p>Creating user interface, level design, and fluid system functionality
               </p>
             </li>
           </ul>

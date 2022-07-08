@@ -4,10 +4,17 @@ header{
     overflow: hidden; 
 }
 
+
+
 .header__container{
     text-align: center;
     height: 100%;
     position: relative;
+    
+}
+
+.header__container p{
+    padding: 0rem 20rem;
 }
 
 /* ----------Resume0--------------*/
@@ -40,13 +47,13 @@ header{
 
 /*------------Me image-------------*/
 .me{
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-squares), transparent);
     width: 22rem;
     height: 36rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
 }
 
@@ -62,11 +69,36 @@ header{
 
 }
 
+/*----------------blinking cursor----------------*/
+.react-rotating-text-cursor{
+    animation: blinking-cursor 1s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+@keyframes blinking-cursor{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
 /*-----------------Medium size devices-----------------*/
+
+@media screen and (max-width: 1410px){
+    .header__container p{
+        margin: 0rem -20rem;
+    }
+}
 
 @media screen and (max-width: 1024px){
     header{
         height: 90vh;
+    }
+    .header__container p{
+       margin: 0rem -20rem;
     }
 }
 
@@ -80,5 +112,8 @@ header{
     .header__socials,
     .scroll__down{
         display:none;
+    }
+    .header__container p{
+        margin: 0rem -20rem;
     }
 }

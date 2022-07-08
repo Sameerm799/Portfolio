@@ -25,7 +25,7 @@
 }
 
 .service__head{
-    background: var(--color-primary);
+    background: var(--color-squares);
     padding: 2rem; 
     border-radius: 1rem 1rem 2rem 2rem;
     box-shadow: 0 1rem 1rem rgba(0,0,0,0.1);
@@ -36,7 +36,7 @@
 }
 
 .service__head h3{
-    color: var(--color-bg);
+    color: var(--color-black);
     font-size: 1rem;
     text-align: center;
 }
@@ -54,11 +54,12 @@
 .service__list-icon{
     color-scheme: var(--color-primary);
     margin-top: 2px;
-    width: 2rem;
+    width: 20px;
 }
 
 .service__list p{
     font-size: 0.9rem;
+    
 }
 
 /*-----------------Medium size devices-----------------*/

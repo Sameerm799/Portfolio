@@ -36,17 +36,17 @@ const Experience = () => {
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
-             <div>
-                <h4>BootStrap</h4>
-                <small className='text-light'>Experinced</small>
-             </div>
-            </article>
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
                 <small className='text-light'>Experinced</small>
               </div>
+            </article>
+            <article className='experience__details'>
+              <AiOutlineCheckCircle className='experience__details-icon'/>
+             <div>
+                <h4>BootStrap</h4>
+                <small className='text-light'>Intermediate</small>
+             </div>
             </article>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Experience = () => {
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
             <div>
-                <h4>MySQL</h4>
+                <h4>SQL</h4>
               <small className='text-light'>Experinced</small>
             </div>
             </article>
@@ -87,7 +87,14 @@ const Experience = () => {
               <AiOutlineCheckCircle className='experience__details-icon'/>
               <div>
                     <h4>C#</h4>
-                    <small className='text-light'>Experinced</small>
+                    <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <div>
+                    <h4>C++</h4>
+                    <small className='text-light'>Intermediate</small>
               </div>
             </article>
           </div>
