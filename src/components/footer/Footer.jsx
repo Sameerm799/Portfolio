@@ -24,6 +24,7 @@ const Footer = () => {
 
       <div className="footer__copyright">
         <small>&copy; Sameer Muhammad. All rights reserved.</small>
+        <small>Art by Annze Vilenna</small>
       </div>
     </footer>
   )
