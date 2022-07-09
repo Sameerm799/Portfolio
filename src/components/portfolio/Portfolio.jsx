@@ -1,8 +1,9 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assests/imgclass.JPG'
-import IMG2 from '../../assests/game1.png'
-import IMG3 from '../../assests/imgreact.jpg'
+import IMG2 from '../../assests/game.png'
+import IMG3 from '../../assests/tesla.png'
+import IMG4 from '../../assests/task.png'
 import { Autoplay, Pagination,} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -21,17 +22,24 @@ const data = [
   },
   {
     id:2, 
+    image: IMG3,
+    title: 'Tesla Clone React Native App',
+    desc: 'A clone of the Tesla web app',
+    github: 'https://github.com/Sameerm799/TeslaClone',
+  },
+  {
+    id:3,
+    image: IMG4,
+    title: 'To-do List React Native App',
+    desc:'A to-do list app to complete the days task',
+    github:'https://github.com/Sameerm799/To-Do-List-ReactNative',
+  },
+  {
+    id:4, 
     image: IMG1,
     title: 'KPU MY Action Plan Clone',
     desc:'Web application display user courses, comments, and course offers. Using PHP and MySQL.',
     github: 'https://github.com/Sameerm799/MAP-Project-INFO3150',
-  },
-  {
-    id:3, 
-    image: IMG3,
-    title: 'React Native Applications',
-    desc: 'Tesla Clone app and To-do List app',
-    github: 'https://github.com',
   },
 ]
 //replaced article with SwiperSlide
@@ -39,7 +47,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
+      <h4>My Recent Work</h4>
       <h1>Portfolio</h1>
 
       <Swiper className="container portfolio__container"

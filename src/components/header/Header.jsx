@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import Resume from './Resume'
-import ME from '../../assests/YOr.png'
+import ME from '../../assests/mepixel.png'
 import HeaderSocials from './HeaderSocials'
 import ReactRotatingText from "react-rotating-text"
 

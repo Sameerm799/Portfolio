@@ -11,13 +11,13 @@
 }
 
 :root{
-    --color-bg: #fce4e4;
-    --color-bg-varient: #e90a37d8;
+    --color-bg: #e4e9fc;
+    --color-bg-varient: rgba(10, 181, 233, 0.847);
     --color-primary: #050505;
-    --color-primary-varient: #BD3944; /*border color*/
+    --color-primary-varient: #3961bd; /*border color*/
     --color-black: rgb(0, 0, 0);
-    --color-dark: #3b040f;
-    --color-squares: #e90a37c7;
+    --color-dark: #0c043b;
+    --color-squares: #0a88e9c7;
 
     --transition: all 400ms ease;
 

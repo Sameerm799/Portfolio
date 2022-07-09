@@ -5,7 +5,7 @@ import {AiOutlineCheckCircle} from 'react-icons/ai'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
+      <h4>What I Offer</h4>
       <h1>Services</h1>
 
       <div className="container services__container">
