@@ -2,11 +2,16 @@ import React from 'react'
 import './footer.css'
 import {BsFacebook, BsInstagram, BsTwitter} from 'react-icons/bs'
 
+/*<div className="footer__socials">
+        <a href="https://facebook.com"><BsFacebook/></a>
+        <a href="https://instagram.com"><BsInstagram/></a>
+        <a href="https://twitter.com"><BsTwitter/></a>
+      </div>*/
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Sameer</a>
+      <a href="#" className='footer__logo'>Sameer Muhammad</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -16,12 +21,6 @@ const Footer = () => {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
-      <div className="footer__socials">
-        <a href="https://facebook.com"><BsFacebook/></a>
-        <a href="https://instagram.com"><BsInstagram/></a>
-        <a href="https://twitter.com"><BsTwitter/></a>
-      </div>
 
       <div className="footer__copyright">
         <small>&copy; Sameer Muhammad. All rights reserved.</small>

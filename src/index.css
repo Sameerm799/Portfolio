@@ -66,9 +66,15 @@ section{
 }
 
 section > h2, 
-section > h5{
+section > h5,
+section > h4,
+section > h1{
     text-align: center;
     color: var(--color-dark);
+}
+
+section > h1{
+    margin-bottom: 40px;
 }
 
 section > h2{

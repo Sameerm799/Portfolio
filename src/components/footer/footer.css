@@ -17,6 +17,10 @@ footer a{
     display: inline-block;
 }
 
+footer a:hover{
+    color: var(--color-black)
+}
+
 .permalinks{
     display: flex;
     flex-wrap: wrap;

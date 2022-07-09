@@ -1,7 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG2 from '../../assests/imgclass.JPG'
-import IMG3 from '../../assests/game1.png'
+import IMG1 from '../../assests/imgclass.JPG'
+import IMG2 from '../../assests/game1.png'
+import IMG3 from '../../assests/imgreact.jpg'
 import { Autoplay, Pagination,} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,23 +14,23 @@ import 'swiper/css/navigation'
 const data = [
   {
     id:1, 
-    image: IMG3,
+    image: IMG2,
     title: 'Abu La La Land',
     desc:'This was my first game I ever made. Using Unity and C#.',
     github: 'https://github.com/Sameerm799/Abu-La-La-Land',
   },
   {
     id:2, 
-    image: IMG2,
+    image: IMG1,
     title: 'KPU MY Action Plan Clone',
-    desc:'This web application has user login and preview their courses, comments, and course offers. Using PHP and MySQL.',
+    desc:'Web application display user courses, comments, and course offers. Using PHP and MySQL.',
     github: 'https://github.com/Sameerm799/MAP-Project-INFO3150',
   },
   {
     id:3, 
-    image: IMG2,
+    image: IMG3,
     title: 'React Native Applications',
-    desc: '',
+    desc: 'Tesla Clone app and To-do List app',
     github: 'https://github.com',
   },
 ]
@@ -39,7 +40,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h1>Portfolio</h1>
 
       <Swiper className="container portfolio__container"
       modules={[Autoplay, Pagination]}
