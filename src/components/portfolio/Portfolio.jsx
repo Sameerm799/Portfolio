@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assests/imgclass.JPG'
 import IMG2 from '../../assests/game.png'
 import IMG3 from '../../assests/tesla.png'
-import IMG4 from '../../assests/task.png'
+import IMG4 from '../../assests/iDIDit.png'
 import { Autoplay, Pagination,} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -30,9 +30,9 @@ const data = [
   {
     id:3,
     image: IMG4,
-    title: 'To-do List React Native App',
-    desc:'A to-do list app to complete the days task',
-    github:'https://github.com/Sameerm799/To-Do-List-ReactNative',
+    title: 'iDIDit React Native App',
+    desc:'A productivity app that allows user to write tasks, notes, and showcase their work with images.',
+    github:'https://github.com/Sameerm799/classP',
   },
   {
     id:4, 
